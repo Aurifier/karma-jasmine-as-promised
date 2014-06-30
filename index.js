@@ -9,6 +9,7 @@ function getPath(pkg) {
 }
 function getMainScript(pkg) {
   var pth = getPath(pkg);
+  pth = pth + "../";
   return path.normalize(pth + require(pth + 'package.json').main);
 }
 
