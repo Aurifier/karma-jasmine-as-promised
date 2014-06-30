@@ -13,8 +13,8 @@ function getMainScript(pkg) {
 }
 
 var framework = function framework(files) {
-  files.unshift(createPattern(getMainScript('mocha-as-promised')));
+  files.unshift(createPattern(getMainScript('jasmine-as-promised')));
 };
 
 framework.$inject = ['config.files'];
-module.exports = {'framework:mocha-as-promised': ['factory', framework]};
+module.exports = {'framework:jasmine-as-promised': ['factory', framework]};
