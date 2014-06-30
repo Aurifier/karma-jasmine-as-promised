@@ -1,14 +1,18 @@
 {
-  "name": "karma-mocha-as-promised",
-  "version": "0.1.1",
-  "description": "A Karma plugin - adapter for mocha-as-promised.",
+  "name": "karma-jasmine-as-promised",
+  "version": "0.0.2",
+  "description": "A Karma plugin - adapter for jasmine-as-promised.",
   "main": "./index.js",
   "license": "MIT",
   "author": {
-    "name": "Javier Mendiara Cañardo",
-    "email": "jmendiara@gmail.com"
+    "name": "Andrew Reed",
+    "email": "reed.995@osu.edu"
   },
   "contributors": [
+    {
+      "name": "Javier Mendiara Cañardo",
+      "email": "jmendiara@gmail.com"
+    },
     {
       "name": "Martin Hansen",
       "email": "martin@martinhansen.no"
@@ -16,22 +20,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jmendiara/karma-mocha-as-promised.git"
+    "url": "git://github.com/Aurifier/karma-jasmine-as-promised.git"
   },
   "bugs": {
-    "url": "https://github.com/jmendiara/karma-mocha-as-promised/issues"
+    "url": "https://github.com/Aurifier/karma-jasmine-as-promised/issues"
   },
-  "homepage": "https://github.com/jmendiara/karma-mocha-as-promised",
+  "homepage": "https://github.com/Aurifier/karma-jasmine-as-promised",
   "keywords": [
     "karma-plugin",
     "karma-adapter",
-    "mocha",
-    "mocha-as-promised"
+    "jasmine",
+    "jasmine-as-promised"
   ],
   "dependencies": {},
   "peerDependencies": {
     "karma": "0.10.x",
-    "mocha-as-promised": "*"
+    "jasmine-as-promised": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
