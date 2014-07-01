@@ -1,4 +1,4 @@
-# karma-mocha-as-promised
+# karma-jasmine-as-promised
 
 [Jasmine as promised](https://github.com/ThomasBurleson/jasmine-as-promised) for [Karma](http://karma-runner.github.io)
 
