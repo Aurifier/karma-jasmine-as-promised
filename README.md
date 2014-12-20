@@ -33,6 +33,17 @@ module.exports = function(config) {
     // ...
 ```
 
+add `karma-jasmine-as-promised` before `karma-jasmine` to the `plugins` key in your karma configuration:
+
+```js
+  // Which plugins to enable
+  plugins: [
+    'karma-phantomjs-launcher',
+    'karma-jasmine-as-promised',
+    'karma-jasmine'
+  ]
+```
+
 ### Usage with karma-requirejs
 
 If you are going to use [karma-requirejs](https://github.com/karma-runner/karma-requirejs), make sure you place `requirejs` first in the order of your frameworks.
